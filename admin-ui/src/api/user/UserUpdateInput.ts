@@ -7,4 +7,5 @@ export type UserUpdateInput = {
   password?: string;
   roles?: InputJsonValue;
   blob?: string | null;
+  age?: number | null;
 };

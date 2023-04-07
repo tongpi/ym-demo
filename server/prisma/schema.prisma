@@ -17,4 +17,5 @@ model User {
   password  String
   roles     Json
   blob      String?
+  age       Float?
 }
