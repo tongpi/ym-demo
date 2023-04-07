@@ -8,4 +8,5 @@ export type UserUpdateInput = {
   roles?: InputJsonValue;
   blob?: string | null;
   age?: number | null;
+  cls?: string | null;
 };

@@ -106,6 +106,17 @@ class User {
     nullable: true,
   })
   age!: number | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  cls!: string | null;
 }
 
 export { User as User };
