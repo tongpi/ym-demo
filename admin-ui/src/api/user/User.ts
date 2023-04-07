@@ -9,4 +9,5 @@ export type User = {
   username: string;
   roles: JsonValue;
   blob: string | null;
+  age: number | null;
 };

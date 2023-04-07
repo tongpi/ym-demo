@@ -1,5 +1,6 @@
 import { StringFilter } from "../../util/StringFilter";
 import { StringNullableFilter } from "../../util/StringNullableFilter";
+import { FloatNullableFilter } from "../../util/FloatNullableFilter";
 
 export type UserWhereInput = {
   id?: StringFilter;
@@ -7,4 +8,5 @@ export type UserWhereInput = {
   lastName?: StringNullableFilter;
   username?: StringFilter;
   blob?: StringNullableFilter;
+  age?: FloatNullableFilter;
 };

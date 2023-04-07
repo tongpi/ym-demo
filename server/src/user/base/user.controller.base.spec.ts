@@ -27,6 +27,7 @@ const CREATE_INPUT = {
   username: "exampleUsername",
   password: "examplePassword",
   blob: "exampleBlob",
+  age: 42.42,
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -37,6 +38,7 @@ const CREATE_RESULT = {
   username: "exampleUsername",
   password: "examplePassword",
   blob: "exampleBlob",
+  age: 42.42,
 };
 const FIND_MANY_RESULT = [
   {
@@ -48,6 +50,7 @@ const FIND_MANY_RESULT = [
     username: "exampleUsername",
     password: "examplePassword",
     blob: "exampleBlob",
+    age: 42.42,
   },
 ];
 const FIND_ONE_RESULT = {
@@ -59,6 +62,7 @@ const FIND_ONE_RESULT = {
   username: "exampleUsername",
   password: "examplePassword",
   blob: "exampleBlob",
+  age: 42.42,
 };
 
 const service = {

@@ -7,4 +7,5 @@ export type UserCreateInput = {
   password: string;
   roles: InputJsonValue;
   blob?: string | null;
+  age?: number | null;
 };
