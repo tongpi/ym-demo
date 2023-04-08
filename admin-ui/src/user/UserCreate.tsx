@@ -29,6 +29,7 @@ export const UserCreate = (props: CreateProps): React.ReactElement => {
         <TextInput label="blob" source="blob" />
         <NumberInput label="age" source="age" />
         <TextInput label="cls" source="cls" />
+        <TextInput label="cls2" source="cls2" />
       </SimpleForm>
     </Create>
   );

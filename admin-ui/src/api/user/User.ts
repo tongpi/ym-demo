@@ -11,4 +11,5 @@ export type User = {
   blob: string | null;
   age: number | null;
   cls: string | null;
+  cls2: string | null;
 };

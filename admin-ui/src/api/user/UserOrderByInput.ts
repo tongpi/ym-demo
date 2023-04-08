@@ -12,4 +12,5 @@ export type UserOrderByInput = {
   blob?: SortOrder;
   age?: SortOrder;
   cls?: SortOrder;
+  cls2?: SortOrder;
 };

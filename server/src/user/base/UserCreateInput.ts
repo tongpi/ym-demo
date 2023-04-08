@@ -94,6 +94,17 @@ class UserCreateInput {
     nullable: true,
   })
   cls?: string | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  cls2?: string | null;
 }
 
 export { UserCreateInput as UserCreateInput };

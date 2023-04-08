@@ -10,4 +10,5 @@ export type UserWhereInput = {
   blob?: StringNullableFilter;
   age?: FloatNullableFilter;
   cls?: StringNullableFilter;
+  cls2?: StringNullableFilter;
 };

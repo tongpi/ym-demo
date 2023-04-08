@@ -60,6 +60,7 @@ export class UserControllerBase {
         blob: true,
         age: true,
         cls: true,
+        cls2: true,
       },
     });
   }
@@ -91,6 +92,7 @@ export class UserControllerBase {
         blob: true,
         age: true,
         cls: true,
+        cls2: true,
       },
     });
   }
@@ -123,6 +125,7 @@ export class UserControllerBase {
         blob: true,
         age: true,
         cls: true,
+        cls2: true,
       },
     });
     if (result === null) {
@@ -164,6 +167,7 @@ export class UserControllerBase {
           blob: true,
           age: true,
           cls: true,
+          cls2: true,
         },
       });
     } catch (error) {
@@ -204,6 +208,7 @@ export class UserControllerBase {
           blob: true,
           age: true,
           cls: true,
+          cls2: true,
         },
       });
     } catch (error) {
