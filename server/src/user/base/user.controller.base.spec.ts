@@ -29,6 +29,7 @@ const CREATE_INPUT = {
   blob: "exampleBlob",
   age: 42.42,
   cls: "exampleCls",
+  cls2: "exampleCls2",
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -41,6 +42,7 @@ const CREATE_RESULT = {
   blob: "exampleBlob",
   age: 42.42,
   cls: "exampleCls",
+  cls2: "exampleCls2",
 };
 const FIND_MANY_RESULT = [
   {
@@ -54,6 +56,7 @@ const FIND_MANY_RESULT = [
     blob: "exampleBlob",
     age: 42.42,
     cls: "exampleCls",
+    cls2: "exampleCls2",
   },
 ];
 const FIND_ONE_RESULT = {
@@ -67,6 +70,7 @@ const FIND_ONE_RESULT = {
   blob: "exampleBlob",
   age: 42.42,
   cls: "exampleCls",
+  cls2: "exampleCls2",
 };
 
 const service = {

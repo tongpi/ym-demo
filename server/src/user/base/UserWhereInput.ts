@@ -95,6 +95,17 @@ class UserWhereInput {
     nullable: true,
   })
   cls?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  cls2?: StringNullableFilter;
 }
 
 export { UserWhereInput as UserWhereInput };
