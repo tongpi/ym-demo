@@ -10,4 +10,5 @@ export type User = {
   roles: JsonValue;
   blob: string | null;
   age: number | null;
+  cls: string | null;
 };

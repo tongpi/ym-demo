@@ -83,6 +83,17 @@ class UserCreateInput {
     nullable: true,
   })
   age?: number | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  cls?: string | null;
 }
 
 export { UserCreateInput as UserCreateInput };

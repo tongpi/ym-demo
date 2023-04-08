@@ -8,4 +8,5 @@ export type UserCreateInput = {
   roles: InputJsonValue;
   blob?: string | null;
   age?: number | null;
+  cls?: string | null;
 };

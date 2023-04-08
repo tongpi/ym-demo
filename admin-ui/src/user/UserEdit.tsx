@@ -28,6 +28,7 @@ export const UserEdit = (props: EditProps): React.ReactElement => {
         />
         <TextInput label="blob" source="blob" />
         <NumberInput label="age" source="age" />
+        <TextInput label="cls" source="cls" />
       </SimpleForm>
     </Edit>
   );

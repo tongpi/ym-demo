@@ -9,4 +9,5 @@ export type UserWhereInput = {
   username?: StringFilter;
   blob?: StringNullableFilter;
   age?: FloatNullableFilter;
+  cls?: StringNullableFilter;
 };

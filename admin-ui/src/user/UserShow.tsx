@@ -20,6 +20,7 @@ export const UserShow = (props: ShowProps): React.ReactElement => {
         <TextField label="Roles" source="roles" />
         <TextField label="blob" source="blob" />
         <TextField label="age" source="age" />
+        <TextField label="cls" source="cls" />
       </SimpleShowLayout>
     </Show>
   );

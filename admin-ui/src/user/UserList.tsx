@@ -21,6 +21,7 @@ export const UserList = (props: ListProps): React.ReactElement => {
         <TextField label="Roles" source="roles" />
         <TextField label="blob" source="blob" />
         <TextField label="age" source="age" />
+        <TextField label="cls" source="cls" />
       </Datagrid>
     </List>
   );

@@ -84,6 +84,17 @@ class UserWhereInput {
     nullable: true,
   })
   age?: FloatNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  cls?: StringNullableFilter;
 }
 
 export { UserWhereInput as UserWhereInput };
