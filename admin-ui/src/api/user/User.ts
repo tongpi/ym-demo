@@ -8,8 +8,4 @@ export type User = {
   lastName: string | null;
   username: string;
   roles: JsonValue;
-  blob: string | null;
-  age: number | null;
-  cls: string | null;
-  cls2: string | null;
 };
