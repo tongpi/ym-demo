@@ -9,8 +9,4 @@ export type UserOrderByInput = {
   username?: SortOrder;
   password?: SortOrder;
   roles?: SortOrder;
-  blob?: SortOrder;
-  age?: SortOrder;
-  cls?: SortOrder;
-  cls2?: SortOrder;
 };
