@@ -6,8 +6,4 @@ export type UserUpdateInput = {
   username?: string;
   password?: string;
   roles?: InputJsonValue;
-  blob?: string | null;
-  age?: number | null;
-  cls?: string | null;
-  cls2?: string | null;
 };
