@@ -78,6 +78,28 @@ class User {
   @IsJSON()
   @Field(() => GraphQLJSON)
   roles!: JsonValue;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  age!: string | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  course!: string | null;
 }
 
 export { User as User };
