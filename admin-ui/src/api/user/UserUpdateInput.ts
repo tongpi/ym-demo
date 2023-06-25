@@ -6,4 +6,6 @@ export type UserUpdateInput = {
   username?: string;
   password?: string;
   roles?: InputJsonValue;
+  age?: string | null;
+  course?: string | null;
 };

@@ -6,4 +6,6 @@ export type UserCreateInput = {
   username: string;
   password: string;
   roles: InputJsonValue;
+  age?: string | null;
+  course?: string | null;
 };
