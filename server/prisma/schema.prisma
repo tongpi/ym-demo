@@ -16,4 +16,6 @@ model User {
   username  String   @unique
   password  String
   roles     Json
+  age       String?
+  course    String?
 }
