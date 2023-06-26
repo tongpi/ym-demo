@@ -8,4 +8,6 @@ export type User = {
   lastName: string | null;
   username: string;
   roles: JsonValue;
+  age: string | null;
+  course: string | null;
 };
